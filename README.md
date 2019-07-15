@@ -1,13 +1,13 @@
-#Url expander
+# Url expander
 It is a tool written in Java for expanding shortened URLs.
 
-##Details
+## Details
 Url expander is development using Java 11 and the native HTTP Client, some details are available [here](https://openjdk.java.net/groups/net/httpclient/intro.html). 
 Another feature of this tool is the use of multitasking (multithread) to optimize the time.
 
 An important feature is the manage of timeouts and errors. When exist errors, the returned data will show it.  
 
-##Using
+## Using
 The entry point of the library is a class named *ProcessExpander* and the method *expanderUrls*. A snippet of code is
 showing in the next line.
 
